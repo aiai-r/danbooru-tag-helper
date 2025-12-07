@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Danbooru Tag Helper",
+  "version": "2.0",
+  "description": "タグコピー拡張機能（設定機能付き）",
+  "permissions": ["activeTab", "clipboardWrite", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://danbooru.donmai.us/posts/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
