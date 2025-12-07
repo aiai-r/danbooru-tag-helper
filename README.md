@@ -1,10 +1,7 @@
 # Danbooru Tag Helper
 
 Danbooruの投稿ページ（Posts）で、タグを個別に選択してクリップボードにコピーするためのChrome拡張機能です。
-以前普及していたツールが動作しなくなったため、同様の機能を持つ代替ツールとして新規に開発しました。
-
 This is a Chrome extension to select and copy tags on Danbooru post pages.
-Created as an alternative since the previously popular tool stopped working.
 
 ## Features (機能)
 
@@ -24,7 +21,7 @@ This extension is not on the Chrome Web Store. Please follow the steps below.
 
 1.  Clone this repository.
     ```bash
-    git clone [https://github.com/YourUserName/danbooru-tag-helper.git](https://github.com/YourUserName/danbooru-tag-helper.git)
+    git clone [https://github.com/aiai-r/danbooru-tag-helper.git](https://github.com/aiai-r/danbooru-tag-helper.git)
     ```
 2.  Open Chrome and go to `chrome://extensions/`.
 3.  Enable **"Developer mode"** (top right).
@@ -46,7 +43,7 @@ This extension is not on the Chrome Web Store. Please follow the steps below.
 
 ## Credits / Inspiration
 
-このツールは、以下の素晴らしい拡張機能を参考に（リスペクトし）、その代替として作成されました。
+このツールは、以下の拡張機能を参考に作成しました。
 This tool is inspired by the following repository and was built as an alternative.
 
 * **[Danbooru-Tags-Exporter](https://github.com/FSpark/Danbooru-Tags-Exporter)** by FSpark
