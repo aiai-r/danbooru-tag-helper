@@ -20,7 +20,7 @@ Danbooruの投稿ページ（Posts）で、タグを個別に選択してクリ�
 
 1.  このリポジトリをクローンします。
     ```bash
-    git clone [https://github.com/aiai-r/danbooru-tag-helper.git](https://github.com/aiai-r/danbooru-tag-helper.git)
+    git clone https://github.com/aiai-r/danbooru-tag-helper.git
     ```
 2.  Chromeを開き、アドレスバーに `chrome://extensions/` と入力して移動します。
 3.  画面右上の **「デベロッパーモード」** をオンにします。
