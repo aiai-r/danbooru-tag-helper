@@ -72,6 +72,7 @@
         panel.innerHTML = `
             <button class="dtc-copy-selected" style="${btnPrimaryStyle}">選択コピー</button>
             <button class="dtc-copy-all" style="${btnStyle}">全コピー</button>
+            <button class="dtc-select-all" style="${btnStyle}">全選択</button>
             <button class="dtc-clear" style="${btnStyle}">全解除</button>
         `;
         
@@ -110,6 +111,11 @@
             const all = ul.querySelectorAll('.dtc-checkbox');
             const tags = Array.from(all).map(cb => cb.dataset.tag);
             getOptionsAndCopy(tags, e.target);
+        });
+
+        // [全選択]
+        panel.querySelector('.dtc-select-all').addEventListener('click', () => {
+            ul.querySelectorAll('.dtc-checkbox').forEach(cb => cb.checked = true);
         });
 
         // [全解除]
