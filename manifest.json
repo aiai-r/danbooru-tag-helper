@@ -9,7 +9,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://danbooru.donmai.us/posts/*"],
+      "matches": ["*://danbooru.donmai.us/posts/*", "*://aibooru.online/posts/*"],
       "js": ["content.js"],
       "run_at": "document_end"
     }

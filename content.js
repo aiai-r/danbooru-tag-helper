@@ -48,7 +48,7 @@
         listItems.forEach(li => {
             const link = li.querySelector('a.search-tag');
             if (!link) return;
-            const tagName = link.getAttribute('data-tag-name') || link.innerText;
+            const tagName = li.getAttribute('data-tag-name') || link.getAttribute('data-tag-name') || link.innerText;
 
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
